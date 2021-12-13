@@ -27,4 +27,14 @@ class ItemJsonList:
         return r
 
     def __initFile(self):
-        pass
+        d = {
+            "parent": "item/handheld",
+            "textures": {
+                "layer0": f"item/{self.itemID}"
+            },
+            "overrides": [
+                
+            ]
+        }
+
+        writeJSON_File(self.filePath, d)
