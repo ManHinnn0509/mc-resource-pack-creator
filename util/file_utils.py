@@ -27,11 +27,3 @@ def writeJSON_File(p: str, d: dict):
         return True
     except:
         return False
-
-def writeJSON_File(p: str, d: dict):
-    try:
-        with open(p, 'w+', encoding='utf-8') as f:
-            json.dump(d, f, ensure_ascii=False, indent=4)
-        return True
-    except:
-        return False
