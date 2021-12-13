@@ -1,0 +1,150 @@
+{
+    "parent": "item/handheld",
+    "textures": {"layer0": "item/prismarine_crystals"},
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 2},
+            "model": "item/prismarine_crystals/2"
+        },
+        {
+            "predicate": {"custom_model_data": 3},
+            "model": "item/prismarine_crystals/3"
+        },
+        {
+            "predicate": {"custom_model_data": 4},
+            "model": "item/prismarine_crystals/4"
+        },
+        {
+            "predicate": {"custom_model_data": 5},
+            "model": "item/prismarine_crystals/5"
+        },
+        {
+            "predicate": {"custom_model_data": 6},
+            "model": "item/prismarine_crystals/6"
+        },
+        {
+            "predicate": {"custom_model_data": 513},
+            "model": "item/prismarine_crystals/513"
+        },
+        {
+            "predicate": {"custom_model_data": 514},
+            "model": "item/prismarine_crystals/514"
+        },
+        {
+            "predicate": {"custom_model_data": 528},
+            "model": "item/prismarine_crystals/528"
+        },
+        {
+            "predicate": {"custom_model_data": 529},
+            "model": "item/prismarine_crystals/529"
+        },
+        {
+            "predicate": {"custom_model_data": 4452},
+            "model": "item/prismarine_crystals/4452"
+        },
+        {
+            "predicate": {"custom_model_data": 4455},
+            "model": "item/prismarine_crystals/4455"
+        },
+        {
+            "predicate": {"custom_model_data": 4458},
+            "model": "item/prismarine_crystals/4458"
+        },
+        {
+            "predicate": {"custom_model_data": 4461},
+            "model": "item/prismarine_crystals/4461"
+        },
+        {
+            "predicate": {"custom_model_data": 12034},
+            "model": "item/prismarine_crystals/12034"
+        },
+        {
+            "predicate": {"custom_model_data": 16012},
+            "model": "item/prismarine_crystals/16012"
+        },
+        {
+            "predicate": {"custom_model_data": 40479},
+            "model": "item/prismarine_crystals/40479"
+        },
+        {
+            "predicate": {"custom_model_data": 40706},
+            "model": "item/prismarine_crystals/40706"
+        },
+        {
+            "predicate": {"custom_model_data": 40709},
+            "model": "item/prismarine_crystals/40709"
+        },
+        {
+            "predicate": {"custom_model_data": 40710},
+            "model": "item/prismarine_crystals/40710"
+        },
+        {
+            "predicate": {"custom_model_data": 40712},
+            "model": "item/prismarine_crystals/40712"
+        },
+        {
+            "predicate": {"custom_model_data": 40714},
+            "model": "item/prismarine_crystals/40714"
+        },
+        {
+            "predicate": {"custom_model_data": 40716},
+            "model": "item/prismarine_crystals/40716"
+        },
+        {
+            "predicate": {"custom_model_data": 42385},
+            "model": "item/prismarine_crystals/42385"
+        },
+        {
+            "predicate": {"custom_model_data": 44268},
+            "model": "item/prismarine_crystals/44268"
+        },
+        {
+            "predicate": {"custom_model_data": 44286},
+            "model": "item/prismarine_crystals/44286"
+        },
+        {
+            "predicate": {"custom_model_data": 44463},
+            "model": "item/prismarine_crystals/44463"
+        },
+        {
+            "predicate": {"custom_model_data": 44464},
+            "model": "item/prismarine_crystals/44464"
+        },
+        {
+            "predicate": {"custom_model_data": 44465},
+            "model": "item/prismarine_crystals/44465"
+        },
+        {
+            "predicate": {"custom_model_data": 44466},
+            "model": "item/prismarine_crystals/44466"
+        },
+        {
+            "predicate": {"custom_model_data": 44467},
+            "model": "item/prismarine_crystals/44467"
+        },
+        {
+            "predicate": {"custom_model_data": 44468},
+            "model": "item/prismarine_crystals/44468"
+        },
+        {
+            "predicate": {"custom_model_data": 44469},
+            "model": "item/prismarine_crystals/44469"
+        },
+        {
+            "predicate": {"custom_model_data": 44470},
+            "model": "item/prismarine_crystals/44470"
+        },
+        {
+            "predicate": {"custom_model_data": 44471},
+            "model": "item/prismarine_crystals/44471"
+        },
+        {
+            "predicate": {"custom_model_data": 44472},
+            "model": "item/prismarine_crystals/44472"
+        },
+        {
+            "predicate": {"custom_model_data": 550713},
+            "model": "item/prismarine_crystals/550713"
+        }
+    ]
+}
