@@ -1,5 +1,8 @@
 from util.file_utils import readJSON_File, writeJSON_File
 
+# Example path
+# .\Pack\assets\minecraft\models\item\prismarine_crystals.json
+
 class ItemJsonList:
 
     def __init__(self, resourcePackName, itemID) -> None:
