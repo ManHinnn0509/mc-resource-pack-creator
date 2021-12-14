@@ -1,5 +1,5 @@
 import os
-from util.file_utils import writeJSON_File
+from util.file_utils import mkdirs, writeJSON_File
 
 # Example path
 # .\Pack\assets\minecraft\models\item\prismarine_crystals\2.json
@@ -11,11 +11,15 @@ class SingleItemJson:
         self.itemID = itemID
         self.customModelData = customModelData
 
-        self.filePath = f'./{resourcePackName}/assets/minecraft/models/item/{itemID}/{customModelData}.json'
+        self.folderPath = f"./{resourcePackName}/assets/minecraft/models/item/{itemID}"
+
+        self.filePath = f"{self.folderPath}/{customModelData}.json"
+    
+    def exists(self):
+        return os.path.exists(self.filePath)
     
     def create(self):
-        if (os.path.exists(self.filePath)):
-            return
+        mkdirs(self.folderPath)
         
         template = {
             "parent": "item/handheld",
