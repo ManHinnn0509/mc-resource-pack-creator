@@ -23,7 +23,7 @@ class ItemJsonList:
     def addEntry(self, customModelData):
         d = {
             "predicate": {
-                "custom_model_data": 2
+                "custom_model_data": customModelData
             },
             "model": f"item/{self.itemID}/{customModelData}"
         }
