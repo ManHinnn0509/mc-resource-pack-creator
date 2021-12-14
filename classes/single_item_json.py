@@ -9,7 +9,7 @@ class SingleItemJson:
     def __init__(self, resourcePackName, itemID, customModelData) -> None:
         self.resourcePackName = resourcePackName
         self.itemID = itemID
-        self.customModelData = customModelData
+        self.customModelData = int(customModelData)
 
         self.folderPath = f"./{resourcePackName}/assets/minecraft/models/item/{itemID}"
 

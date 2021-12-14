@@ -12,19 +12,18 @@ def main():
         print("No textures found. Now exiting...")
         return
     
+    # Order matters
+    # These 2 lines are for creating order from smallest to largest
+    textures = [int(i.split(".")[0]) for i in textures]
+    textures = sorted(textures)
+    
     # pack.mcmeta file
     mcmeta = MCMetaFile(RESOURCE_PACK_NAME)
     if not (mcmeta.exists()):
         mcmeta.create()
     
     jsonList = ItemJsonList(RESOURCE_PACK_NAME, ITEM_ID)
-    for i in textures:
-        # customModelData should be integer only
-        customModelData = i.split(".")[0]
-
-        if not (customModelData.isdigit()):
-            print(f"[ERROR] \"{i}\" is invalid file name.")
-            continue
+    for customModelData in textures:
     
         jsonItem = SingleItemJson(RESOURCE_PACK_NAME, ITEM_ID, customModelData)
         if (jsonItem.exists()):
