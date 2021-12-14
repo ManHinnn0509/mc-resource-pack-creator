@@ -21,6 +21,8 @@ class ItemJsonList:
             self.data = readJSON_File(self.filePath)
     
     def addEntry(self, customModelData):
+        customModelData = int(customModelData)
+        
         d = {
             "predicate": {
                 "custom_model_data": customModelData
