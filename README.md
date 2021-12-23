@@ -38,5 +38,5 @@ I'm actually planning on adding more examples
 
 ## Planned
 
-[ ] Store default json in a single `.py` file
-[ ] Add more examples in [template](./template)
+* [ ] Store default json in a single `.py` file
+* [ ] Add more examples in [template](./template)
